@@ -1,0 +1,58 @@
+html, body, .container {
+    height: 100%;
+}
+
+html {
+    background: url(images/darklaptop.jpg) no-repeat center center fixed;
+    background-size: cover;
+    overflow: hidden;
+    z-index: -1;
+  }
+
+ .message {
+    display: inline-block;
+    font-family: arial;
+    position: relative;
+}
+    
+ .message h2 {
+    position: relative;
+    margin: 1em 0 0;
+    font-family: 'Times New Roman', cursive;
+    text-align: center;
+    color: #fff;
+    z-index: 2;
+    text-shadow: #FC0 1px 0 10px;
+}
+
+.message h2:hover {
+    transform: scale(1.3);
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    align-content: space-between;
+}
+
+.btn button {
+    margin-top: 20px;
+    background-color: orange;
+    padding: 5px 10px;
+    border-radius: 8px;
+}
+
+.btn button:focus {
+    outline-style: none;
+}
+
+.btn button:hover{
+    background-color: rgb(190, 137, 36);
+}
+
+.btn span {
+    color: white;
+}
